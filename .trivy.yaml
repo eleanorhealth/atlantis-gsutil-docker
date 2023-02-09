@@ -1,5 +1,6 @@
 format: 'table'
 exit-code: '1'
-ignore-unfixed: true
-vuln-type: 'os,library'
+vulnerability:
+  ignore-unfixed: true
+  type: 'os,library'
 severity: 'CRITICAL,HIGH'
